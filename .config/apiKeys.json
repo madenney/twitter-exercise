@@ -1,0 +1,7 @@
+{
+	"ACCESS_TOKEN_KEY":"",
+	"ACCESS_TOKEN_SECRET": "",
+	"CONSUMER_TOKEN":"",
+	"CONSUMER_SECRET":""
+}
+
