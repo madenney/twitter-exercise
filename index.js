@@ -1,11 +1,13 @@
 const express = require('express');
 const Twitter = require('twitter');
 
+const apiKeys = require('.config/apiKeys');
+
 const client = new Twitter({
-  consumer_key: '',
-  consumer_secret: '',
-  access_token_key: '',
-  access_token_secret: ''
+  consumer_key: apiKeys.CONSUMER_KEY,
+  consumer_secret: apiKeys.CONSUMER_SECRET,
+  access_token_key: apiKeys.ACCESS_TOKEN_KEY,
+  access_token_secret: apiKey.ACCESS_TOKEN_SECRET
 });
  
 const defaults = {
